@@ -3,7 +3,7 @@ import re
 import streamlit as st
 from prompts import get_system_prompt
 
-st.title("☃️ Frosty")
+st.title("Ghost Biz Analytics Chatbot 👻")
 
 # Initialize the chat messages history
 client = OpenAI(api_key=st.secrets.OPENAI_API_KEY)
